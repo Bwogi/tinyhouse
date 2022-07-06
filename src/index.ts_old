@@ -1,0 +1,31 @@
+// const express = require('express');
+import express from 'express';
+const app = express();
+const PORT = process.env.PORT || 5700;
+
+const one: number = 1;
+const two: number = 2;
+const three: string = 'three';
+const four: boolean = true;
+const five: null = null;
+const six: undefined = undefined;
+const seven: any = {}; // specifies any value
+
+app.get('/', (_req, res) => res.send(`1 + 2 = ${one + two}`));
+
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+// for responses to the browser, use res.send()
+// app.get('/', (req, res) => res.send('API running perfectly well...'));
+// app.get('/hello', (req, res) => res.send('Hello to you too'));
+// app.get('/name', (req, res) => res.send('My name is Node server...'));
+
+// for resposes to the console, use console.log without req and res arguments
+
+// you can only currently use one method - browser or console response
+// app.get('/', () => console.log('API running perfectly well...'));
+// app.get('/hello', () => console.log('Hello to you too'));
+// app.get('/name', () => console.log('My name is Node server...'));
+
+// const PORT = process.env.PORT || 5500;
+// app.listen(PORT, () => console.log(`Server running on port: ${PORT}`));
