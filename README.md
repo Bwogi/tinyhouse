@@ -1,4 +1,2 @@
-# mytinyhouse
-# mytinyhouse
-# mytinyhouse
+
 # tinyhouse
