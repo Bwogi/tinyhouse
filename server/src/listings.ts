@@ -47,4 +47,16 @@ export const listings: Listing[] = [
 		numOfBaths: 2,
 		rating: 3,
 	},
+	{
+		id: '004',
+		title: 'Single bedroom located in the heart of downtown San Fransisco',
+		image:
+			'https://res.cloudinary.com/tiny-house/image/upload/v1560646219/mock/San%20Fransisco/san-fransisco-listing-1_qzntl4.jpg',
+		address: '200 Sunnyside Rd, San Fransisco, California',
+		price: 35000,
+		numOfGuests: 1,
+		numOfBeds: 1,
+		numOfBaths: 1,
+		rating: 5,
+	},
 ];
