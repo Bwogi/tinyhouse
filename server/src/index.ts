@@ -37,5 +37,7 @@ app.post('/delete-listing', (req, res) => {
 // to test our post route using CURL we
 // > curl -X POST http://localhost:9000/delete-listing -H 'Content-Type: application/json' -d '{"id":"001"}
 
+// this is our restful api to interact with our mock data
+
 app.listen(port);
 console.log(`[app]: http://localhost:${port}`);
